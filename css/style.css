@@ -1,0 +1,62 @@
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr ;
+    width: 70%;
+    margin: auto
+}
+.container{
+    width:100%;
+    margin:auto;
+}
+header{
+    height:100px;
+    background-color:antiquewhite;
+    text-align: center;
+    margin: 40px 0px;
+    font-family: century;
+}  
+ .grid-item{
+     
+ } 
+    
+
+li{
+    list-style-type:none;
+}
+.mainheader{
+    display: flex;
+    justify-content: space-around; 
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+ul{
+    display :flex;
+    justify-content: space-between
+    
+}
+nav{
+    width:30%;
+}
+.picture {
+    width:50%;
+
+    
+}
+#projects {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.pic{
+    width: 30%;
+
+}
+img {
+    border-radius: 20px
+}
+.pictureaboutme {
+    width: 40%
+}
